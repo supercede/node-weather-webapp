@@ -42,6 +42,11 @@ header a {
   margin-right: 20px;
 }
 
+a {
+  text-decoration: none;
+  
+}
+
 input {
   border: 1px solid #cccccc;
   padding: 5px;
@@ -55,4 +60,9 @@ button {
   padding: 5px;
   border-radius: 4px;
   font-size: 15px;
+}
+
+p {
+  line-height: 1.5em;
+  text-align: justify;
 }

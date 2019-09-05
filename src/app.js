@@ -32,7 +32,7 @@ app.get('/about', (req, res) =>{
 
 app.get('/help', (req, res) => {
   res.render('help', {title: 'Help',
-    help: 'Need help? Ask Jesus! This page is unhelpful',
+    help: "Lorem Ipsum Dolores lo ra rice n'ile Moria l'ana, Mo ti sun fun e tele wipe ko ni pada wa.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     name: 'Sam'
   });
 })
