@@ -9,7 +9,7 @@ const query = document.getElementById('query');
 
 const getAddress = param => {
     successMessage.innerHTML = '<i>Preparing weather update...</i>'
-    const url = `http://localhost:3000/weather?address=${param}`;
+    const url = `/weather?address=${param}`;
     fetch(url)
         .then(response => response.json())
         .then(data => {
