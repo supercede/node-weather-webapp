@@ -10,7 +10,7 @@ const forecast = (lat, long, callback) => {
       callback(`Can't find location, please review input`, undefined);
     } else {
       const { currently } = body;
-      const output = `${body.daily.data[0].summary} It is currently ${currently.temperature} degrees out. There is a ${currently.precipProbability} percent chance of rain. Timezone: ${body.timezone}`;
+      const output = `${body.daily.data[0].summary} It is currently ${currently.temperature}°c out. There is a ${currently.precipProbability} percent chance of rain. <br> <b>Timezone:</b> ${body.timezone}. <br> <b>Expected Temperature range:</b> ${body.daily.data[0].temperatureLow}°c to ${body.daily.data[0].temperatureHigh}°c`;
       callback(undefined, output);
     }
   });

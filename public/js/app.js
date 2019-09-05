@@ -18,7 +18,7 @@ const getAddress = param => {
                 successMessage.textContent = '';
             }else{
                 successMessage.innerHTML = data.location;
-                failureMessage.textContent = data.forecast;
+                failureMessage.innerHTML = data.forecast;
                 query.innerHTML = `You searched for: <b>${param}</b>`
             }
         })
