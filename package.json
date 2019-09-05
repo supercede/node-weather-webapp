@@ -1,12 +1,16 @@
 {
-  "name": "y",
+  "name": "web-server",
   "version": "1.0.0",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node -r esm src/app.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supercede/node-weather-webapp.git"
+  },
+  "author": "Destiny",
   "license": "ISC",
   "dependencies": {
     "esm": "^3.2.25",
@@ -16,5 +20,8 @@
     "yargs": "^14.0.0"
   },
   "devDependencies": {},
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/supercede/node-weather-webapp/issues"
+  },
+  "homepage": "https://github.com/supercede/node-weather-webapp#readme"
 }
